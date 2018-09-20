@@ -33,14 +33,16 @@ public class IslandsFragment extends Fragment {
         Fragment will use the recycler_list_view XML layout resource because it will be displaying a list of words.
          */
         View rootView = inflater.inflate(R.layout.fragment_view, container, false);
-        tourGuideData();
-      mLayoutManager = new LinearLayoutManager(getContext());
-        mRecyclerView.setLayoutManager(mLayoutManager);
+
         //Set up the tour adapter
-         adapter=new TourAdapter(getActivity(),stringArrayList);
+
 
         mRecyclerView=rootView.findViewById(R.id.my_recycler_view);
+        adapter=new TourAdapter(getActivity(),stringArrayList);
         mRecyclerView.setAdapter(adapter);
+        mLayoutManager = new LinearLayoutManager(getContext());
+        mRecyclerView.setLayoutManager(mLayoutManager);
+        tourGuideData();
         return rootView;
     }
     //Method containing the defined arrayList
