@@ -19,7 +19,7 @@ public class IslandsFragment extends Fragment {
     private RecyclerView mRecyclerView;
     private TourAdapter adapter;
     private RecyclerView.LayoutManager mLayoutManager;
-    ArrayList<Tour> stringArrayList = new ArrayList <>();
+    ArrayList <Tour> stringArrayList = new ArrayList <>();
 
     public IslandsFragment() {
         // Required empty public constructor
@@ -37,21 +37,21 @@ public class IslandsFragment extends Fragment {
         //Set up the tour adapter
 
 
-        mRecyclerView=rootView.findViewById(R.id.my_recycler_view);
-        adapter=new TourAdapter(getActivity(),stringArrayList);
+        mRecyclerView = rootView.findViewById(R.id.my_recycler_view);
+        adapter = new TourAdapter(getActivity(), stringArrayList);
         mRecyclerView.setAdapter(adapter);
         mLayoutManager = new LinearLayoutManager(getContext());
         mRecyclerView.setLayoutManager(mLayoutManager);
         tourGuideData();
         return rootView;
     }
+
     //Method containing the defined arrayList
     public void tourGuideData() {
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
+        stringArrayList.add(new Tour(R.drawable.lamu_island, "LAMU"));
+        stringArrayList.add(new Tour(R.drawable.shela_island, "SHELA"));
+        stringArrayList.add(new Tour(R.drawable.matondoni, "MATONDONI"));
 
         adapter.notifyDataSetChanged();
-}}
+    }
+}

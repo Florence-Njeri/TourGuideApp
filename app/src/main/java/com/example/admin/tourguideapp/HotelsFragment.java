@@ -20,7 +20,8 @@ public class HotelsFragment extends Fragment {
     private RecyclerView mRecyclerView;
     private TourAdapter adapter;
     private RecyclerView.LayoutManager mLayoutManager;
-    ArrayList<Tour> stringArrayList = new ArrayList <>();
+    ArrayList <Tour> stringArrayList = new ArrayList <>();
+
     public HotelsFragment() {
         // Required empty public constructor
     }
@@ -36,26 +37,23 @@ public class HotelsFragment extends Fragment {
 
         //Set up the tour adapter
 
-        mRecyclerView=rootView.findViewById(R.id.my_recycler_view);
-        adapter=new TourAdapter(getActivity(),stringArrayList);
+        mRecyclerView = rootView.findViewById(R.id.my_recycler_view);
+        adapter = new TourAdapter(getActivity(), stringArrayList);
         mRecyclerView.setAdapter(adapter);
         mLayoutManager = new LinearLayoutManager(getContext());
         mRecyclerView.setLayoutManager(mLayoutManager);
         tourGuideData();
         return rootView;
-//        mRecyclerView = rootView.findViewById(R.id.my_recycler_view);
-//        mRecyclerView.setAdapter(adapter);
-//        mLayoutManager = new LinearLayoutManager(getContext());
-//        mRecyclerView.setLayoutManager(mLayoutManager);
-//        tourGuideData();
     }
+
     //Method containing the defined arrayList
     public void tourGuideData() {
         stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
         stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
         stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
+
 
         adapter.notifyDataSetChanged();
-}}
+    }
+
+}

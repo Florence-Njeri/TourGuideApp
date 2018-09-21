@@ -51,11 +51,12 @@ public class ToDoFragment extends android.support.v4.app.Fragment {
 
     //Method containing the defined arrayList
     public void tourGuideData() {
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
+        stringArrayList.add(new Tour(R.drawable.manda_island, "MANDA ISLAND"));
+        stringArrayList.add(new Tour(R.drawable.lamu_old_town, "LAMU OLD TOWN"));
+        stringArrayList.add(new Tour(R.drawable.lamu_museum, "LAMU MUSEUM"));
+        stringArrayList.add(new Tour(R.drawable.lamu_fort, "LAMU FORT"));
+        stringArrayList.add(new Tour(R.drawable.masjid_riyadha, "MASJID RIYADHA"));
+
 
         adapter.notifyDataSetChanged();
     }
