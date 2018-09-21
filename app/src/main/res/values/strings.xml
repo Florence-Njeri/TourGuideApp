@@ -3,8 +3,37 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-<string name="home">HOME</string>
+    <string name="home">HOME</string>
     <string name="hotels">HOTELS</string>
     <string name="to_do">TO-DO</string>
     <string name="shopping">SHOPPING</string>
+    <string name="explore">EXPLORE</string>
+    <string name="sail_dhow">Sail a Traditional Dhow</string>
+    <string name="explore_lamu">Explore Streets of Lamu</string>
+    <string name="visit_takwa">Visit Ruined City of Takwa</string>
+    <string name="sunset_gaze">Sunset gaze in MandaIsland</string>
+    <string name="rent_swahilihouse">Rent a Swahili TownHouse</string>
+    <string name="walk_on_a_beach">Walk Along Deserted Beaches</string>
+    <string name="manda">MANDA ISLAND</string>
+    <string name="lamu_old_town">LAMU OLD TOWN</string>
+    <string name="lamu_museum">LAMU MUSEUM</string>
+    <string name="lamu_fort">LAMU FORT</string>
+    <string name="masjid_riyadha">MASJID RIYADHA</string>
+    <string name="lamu">LAMU</string>
+    <string name="shela">SHELA</string>
+    <string name="matondoni">MATONDONI</string>
+    <string name="majlis_hotel">Majlis Hotel</string>
+    <string name="janat_house">Janat House</string>
+    <string name="kijani_hotel">Kijani Hotel</string>
+    <string name="red_pepper_house">Red Pepper House</string>
+    <string name="msafini_hotel">MSAFINI HOTEL</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text
+        ever since the 1500s, when an unknown printer took a galley of type and scrambled
+        it to make a type specimen book. It has survived not only five centuries, but also the leap
+        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+        with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="discover">discover</string>
+    <string name="image">image</string>
 </resources>

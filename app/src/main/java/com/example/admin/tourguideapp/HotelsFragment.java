@@ -48,9 +48,11 @@ public class HotelsFragment extends Fragment {
 
     //Method containing the defined arrayList
     public void tourGuideData() {
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
-        stringArrayList.add(new Tour(R.drawable.lamu, "Best Guac!!"));
+        stringArrayList.add(new Tour(R.drawable.majlis_hotel, getString(R.string.majlis_hotel)));
+        stringArrayList.add(new Tour(R.drawable.janat_house, getString(R.string.janat_house)));
+        stringArrayList.add(new Tour(R.drawable.kijani_hotel, getString(R.string.kijani_hotel)));
+        stringArrayList.add(new Tour(R.drawable.red_pepper_house, getString(R.string.red_pepper_house)));
+        stringArrayList.add(new Tour(R.drawable.msafini_hotel, getString(R.string.msafini_hotel)));
 
 
         adapter.notifyDataSetChanged();

@@ -36,9 +36,6 @@ public class ToDoFragment extends android.support.v4.app.Fragment {
         View rootView = inflater.inflate(R.layout.fragment_view, container, false);
 
 
-        //Set up the tour adapter
-
-
         mRecyclerView = rootView.findViewById(R.id.my_recycler_view);
         adapter = new TourAdapter(getActivity(), stringArrayList);
         mRecyclerView.setAdapter(adapter);
@@ -51,12 +48,12 @@ public class ToDoFragment extends android.support.v4.app.Fragment {
 
     //Method containing the defined arrayList
     public void tourGuideData() {
-        stringArrayList.add(new Tour(R.drawable.manda_island, "MANDA ISLAND"));
-        stringArrayList.add(new Tour(R.drawable.lamu_old_town, "LAMU OLD TOWN"));
-        stringArrayList.add(new Tour(R.drawable.lamu_museum, "LAMU MUSEUM"));
-        stringArrayList.add(new Tour(R.drawable.lamu_fort, "LAMU FORT"));
-        stringArrayList.add(new Tour(R.drawable.masjid_riyadha, "MASJID RIYADHA"));
-
+        stringArrayList.add(new Tour(R.drawable.dhow_sail, getString(R.string.sail_dhow)));
+        stringArrayList.add(new Tour(R.drawable.explore_lamu_streets, getString(R.string.explore_lamu)));
+        stringArrayList.add(new Tour(R.drawable.ruined_city_takwa, getString(R.string.visit_takwa)));
+        stringArrayList.add(new Tour(R.drawable.sunset_gaze_manda, getString(R.string.sunset_gaze)));
+        stringArrayList.add(new Tour(R.drawable.swahili_house, getString(R.string.rent_swahilihouse)));
+        stringArrayList.add(new Tour(R.drawable.beaches, getString(R.string.walk_on_a_beach)));
 
         adapter.notifyDataSetChanged();
     }
