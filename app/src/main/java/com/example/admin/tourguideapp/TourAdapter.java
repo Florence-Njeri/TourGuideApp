@@ -70,7 +70,6 @@ public class TourAdapter extends RecyclerView.Adapter <TourAdapter.TourViewHolde
             infoText = itemView.findViewById(R.id.info_text);
             destinationImageview = itemView.findViewById(R.id.destinationImageView);
 
-
         }
     }
 
