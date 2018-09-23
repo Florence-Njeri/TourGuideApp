@@ -1,6 +1,6 @@
 <h1>Tour Guide App</h1>
 
-<h3>What I was to learn</h3>
+<h3>What I was to learnt</h3>
 <ul>
 <li>Planning your app design and navigation before coding</li>
 <li>Selecting proper data structures to store lists of information</li>
