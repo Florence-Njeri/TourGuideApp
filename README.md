@@ -1,6 +1,7 @@
 <h1>Tour Guide App</h1>
+<p>This is a multi-screen Android app to share your knowledge about a city you are very familiar with.</p>
 
-<h3>What I was to learnt</h3>
+<h4>Requirements</h4>
 <ul>
 <li>Planning your app design and navigation before coding</li>
 <li>Selecting proper data structures to store lists of information</li>
